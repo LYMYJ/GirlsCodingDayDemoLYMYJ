@@ -40,10 +40,15 @@ blockquote {
   font-style: italic;
 }
 hr.small {
-  max-width: 100px;
+  max-width: 500px;
   margin: 15px auto;
   border-width: 4px;
   border-color: white;
+}
+.freestyle {
+ color: #f5f5f5;
+ background-color: rgba(139, 166, 193, 0.57);
+
 }
 .navbar-custom {
   position: absolute;
@@ -157,6 +162,8 @@ hr.small {
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
+  margin-top: 180px;
+  margin-bottom: 35px;
   padding: 100px 0 50px;
   color: white;
 }
